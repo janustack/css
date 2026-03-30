@@ -1,0 +1,28 @@
+{
+	"name": "@janustack/css-selector-parser",
+	"files": [
+		"dist"
+	],
+	"exports": {
+		".": {
+			"import": "./dist/main.js",
+			"types": "./dist/main.d.ts"
+		}
+	},
+	"devDependencies": {
+		"bun-plugin-dtsx": "^0.9.9",
+		"css-selector-parser": "^3.3.0",
+		"css-what": "^7.0.0",
+		"mitata": "^1.0.34"
+	},
+	"type": "module",
+	"publishConfig": {
+		"access": "public"
+	},
+	"keywords": [
+		"janustack"
+	],
+	"version": "0.1.0",
+	"description": "",
+	"license": "MIT"
+}

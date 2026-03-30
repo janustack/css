@@ -1,0 +1,21 @@
+$schema: ../../.moon/cache/schemas/project.json
+
+language: typescript
+layer: library
+
+project:
+  name: csp
+  description: CSS selector parser
+
+tasks:
+  bench:
+    command: bun
+    local: true
+
+  build:
+    command: bun build.ts
+    inputs:
+      - src/**/*
+      - build.ts
+    outputs:
+      - dist/**/*
